@@ -11,7 +11,7 @@ layout: "base.njk"
 
 
 
-<li><a href="{{ post.url }}">{{ post.data.title }}</a> fhfhfhfjfhfjfjfj </li>
+<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 
 
 

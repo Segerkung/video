@@ -9,7 +9,7 @@ This is a home page
 ## From the Blog
 
 {% for post in collections.posts | randomPost %}
-<a href="{{ post.data.url }}">{{ post.data.title }}</a>
+<a href="/blog">{{ post.data.title }}</a>
 {% endfor %}
 
 ## Articles
