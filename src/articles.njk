@@ -3,13 +3,13 @@ pagination:
   data: cms
   size: 1
   alias: article
-  addAllPagesToCollections: true 
-layout: base.njk
-tags: articles
+  addAllPagesToCollections: true
 permalink: "/articles/{{ article.title | slug }}/"
-templateEngineOverride; md, njk
+tags: articles
+layout: base.njk
+templateEngineOverride: md, njk
 eleventyComputed:
-    title: "{{ article.title }}"
+  title: "{{ article.title }}"
 ---
 
-{{ article.body | safe }}
+{{ article.body | safe }} 

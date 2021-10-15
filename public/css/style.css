@@ -1,7 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
-  background-color: gray;
-  color: brown;
+  color: rebeccapurple;
+  max-width: 100%;
+  width: 60ch;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+a {
+  color: #4d2673;
+}
+
+li + li {
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
