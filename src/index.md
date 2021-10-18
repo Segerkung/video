@@ -5,7 +5,7 @@ templateEngineOverride: njk,md
 ---
 
 This is a home page
-
+hej
 ## From the Blog
 
 {% for post in collections.posts | randomPost %}
